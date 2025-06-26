@@ -1343,28 +1343,52 @@ nav {
         height: 40px;
         font-size: 20px;
     }
-}
 
-/* Base styles */
-body {
-  font-size: 18px;
-}
+    /* Navigation Bar Responsive */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 10px;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .nav-links a {
+        font-size: 16px;
+        padding: 8px 0;
+    }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-
-  .navbar {
-    flex-direction: column;
-  }
-
-  .hero-section h1 {
-    font-size: 24px;
-  }
-
-  .services-grid {
-    grid-template-columns: 1fr; /* stack services on mobile */
-  }
+    /* Education Timeline Responsive */
+    .education-section {
+        padding: 0 5px;
+    }
+    .timeline {
+        padding-left: 0;
+    }
+    .timeline::before {
+        display: none;
+    }
+    .timeline-item {
+        border-left: none;
+        padding: 1rem 0.5rem;
+        margin-bottom: 1rem;
+        box-shadow: none;
+        border-radius: 8px;
+    }
+    .timeline-item::before {
+        display: none;
+    }
+    .timeline-degree {
+        font-size: 16px;
+    }
+    .timeline-institution {
+        font-size: 14px;
+    }
+    .timeline-period {
+        font-size: 12px;
+    }
 }
