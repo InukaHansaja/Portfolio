@@ -1344,3 +1344,27 @@ nav {
         font-size: 20px;
     }
 }
+
+/* Base styles */
+body {
+  font-size: 18px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .hero-section h1 {
+    font-size: 24px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr; /* stack services on mobile */
+  }
+}
