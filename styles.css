@@ -401,6 +401,9 @@ nav {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
 }
 
 /* Education Section */
