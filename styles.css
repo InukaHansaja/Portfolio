@@ -981,10 +981,12 @@ nav {
 }
 
 .project-label {
-    color: #a855f7;
-    font-size: 14px;
+    color: goldenrod;
+    font-size: 24px;
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
     letter-spacing: 1px;
 }
 
