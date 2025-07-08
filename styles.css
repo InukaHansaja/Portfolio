@@ -1082,6 +1082,14 @@ nav {
     font-weight: bold; 
 }
 
+.project-preview img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px; /* Optional */
+    object-fit: cover;
+}
+
+
 /* Contact Section */
 .contact {
     padding: 100px 80px;
